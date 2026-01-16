@@ -1,4 +1,4 @@
-<h1 align="center">Support Code for /n 
+<h1 align="center">Support Code for \n 
   "The Fiscal Impact of Biodiversity Loss and a Pathway for Conservation Finance"</h1>
 
   ## Anya Nakhmurina, Dale T. Manning, Eli P. Fenichel
