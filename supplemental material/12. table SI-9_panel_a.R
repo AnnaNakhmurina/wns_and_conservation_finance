@@ -128,7 +128,8 @@ etable( m1, m2,
        drop = c("min. temp", "precip", "mintemp", "tmin", "tmax", "tavg"),
        extralines = list(
          '-^Quarterly temp. bins' = c( "Yes", "No"),
-         '-^Squared quarterly temp.' = c( "No", "Yes")
+         '-^Squared quarterly temp.' = c( "No", "Yes"),
+         '-^Linear quarterly temp.' = c( "No", "Yes")
        ),
        style.tex = style.tex("aer",
                              yesNo = c('Yes', ''),
