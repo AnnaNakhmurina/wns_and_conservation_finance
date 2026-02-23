@@ -4,7 +4,7 @@
 
   ## Anya Nakhmurina, Dale T. Manning, Eli P. Fenichel
 
-This code enables replication of results in "The Fiscal Impact of Biodiversity Loss and a Pathway for Conservation Finance," published in _Science_ XXXX.
+This code enables replication of results in "The Fiscal Impact of Biodiversity Loss and a Pathway for Conservation Finance," published in _Science_ on March 12, 2026.
 
 ## Data Sources
 All data sources are available to researchers, though some require licenses.
