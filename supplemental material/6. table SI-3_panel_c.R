@@ -41,7 +41,7 @@ winsorize <- function(x, p = c(0.01, 0.99)) {
 # Load data
 #----------------------------------------------------------------
 
-data <- read_dta( "../../../data/2024/bats_county_financial_data.dta")
+data <- read_dta( "../../../data/2024/bats_county_financial_data.dta") %>% filter( !is.na(property_tax_per_capita)  & !is.na(q1precip) )
 
 #----------------------------------------------------------------
 # Define variables for summary statistics

@@ -32,7 +32,7 @@ gc()
 # Load data
 #----------------------------------------------------------------
 
-data <- read_dta("../../../data/2024/bats_rural_financial_data.dta")
+data <- read_dta("../../../data/2024/bats_rural_financial_data.dta") 
 
 #----------------------------------------------------------------
 # Regression with no controls

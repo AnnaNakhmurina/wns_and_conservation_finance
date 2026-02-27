@@ -28,7 +28,7 @@ data <- read_dta("../../../data/2024/bats_rural_financial_data_main.dta")
 #----------------------------------------------------------------
 
 plot <- feols(
-  property_tax_per_capita ~ i(event_year, 0)
+  property_tax_per_capita ~ i(event_year, -1)
   + lnpop
   + cum_outbreak_count
   + q1mintemp + q2mintemp + q3mintemp + q4mintemp

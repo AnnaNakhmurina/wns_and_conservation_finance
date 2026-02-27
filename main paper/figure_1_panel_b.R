@@ -29,7 +29,7 @@ spread <- read_dta(paste0("../../../data/2024/bats_rural_spread_data.dta"))
 #----------------------------------------------------------------
 
 plot <- feols(
-  statetaxSPREAD_MMAinterp ~ i(event_year, -1)
+  statetaxSPREAD_MMAinterp ~ i(event_year, 0)
   + lnsize + lnmat + BQ + GO + log_pop + callable + insured_mergent
   + cum_outbreak_count
   + q1mintemp + q2mintemp + q3mintemp + q4mintemp

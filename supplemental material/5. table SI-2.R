@@ -34,7 +34,7 @@ multi.summary <- function(x) {
 # Load data
 #----------------------------------------------------------------
 
-rural_data <- read_dta("../../../data/2024/bats_rural_financial_data.dta")
+rural_data <- read_dta("../../../data/2024/bats_rural_financial_data.dta") %>% filter( !is.na(property_tax_per_capita)  & !is.na(q1precip) )
 
 #----------------------------------------------------------------
 # Panel A: Summary statistics
